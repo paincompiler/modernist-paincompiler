@@ -1,0 +1,74 @@
+.about .header {
+  position: relative;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #aaa;
+}
+.about .header .avatar {
+  position: absolute;
+  width: 96px;
+  line-height: 1;
+}
+.about .header .avatar img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.25) !important;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.25) !important;
+}
+.about .header .profile {
+  margin-left: 110px;
+  vertical-align: middle;
+}
+@media screen and (max-width:580px) {
+  .about .header .profile {
+    padding-left: 2px 0 0 78px;
+  }
+}
+.about .header .profile .name {
+  color: #494949;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-shadow: rgba(255,255,255,0.9) 0 1px 0;
+  margin-bottom: 0;
+}
+.about .header .profile .email {
+  color: #494949;
+  text-shadow: rgba(255,255,255,0.9) 0 1px 0;
+  margin-bottom: 0;
+}
+.about .header .social-link {
+  margin-top: 10px;
+}
+.about .header .social-link ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.about .header .social-link ul li {
+  display: inline-block;
+  margin-right: 6px;
+}
+.about .header .social-link .icon {
+  color: #333;
+  display: inline-block;
+  position: relative;
+}
+.about .header .social-link .icon span:before {
+  font: 2em FontAwesome;
+}
+.about .header .social-link .github span:before {
+  content: '\f09b';
+}
+.about .header .social-link .twitter span:before {
+  content: '\f099';
+}
+.about .header .social-link .weibo span:before {
+  content: '\f18a';
+}
+.about .header .social-link .rss span:before {
+  content: '\f09e';
+}
+.about .description {
+  margin-top: 10px;
+}

@@ -1,0 +1,13 @@
+<div class="copyright">
+  <% if (config.author){ %>
+  &copy; <%= new Date().getFullYear() %> <a href="<%- config.root %>"><%= config.author %></a>
+  <% } else { %>
+  &copy; <%= new Date().getFullYear() %> <a href="<%- config.root %>"><%= config.title %></a>
+  <% } %>
+</div>
+<div class="theme-copyright">
+  Theme by <a href="http://heroicyang.com/" target="_blank">Heroic Yang</a>
+   | 
+  Redesign by <a href='<%- config.url %>' target="_blank">Leoc O'Cear</a>
+</div>
+<div class="clearfix"></div>

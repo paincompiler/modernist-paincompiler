@@ -1,0 +1,21 @@
+menu:
+  Home: /
+  Archives: /archives
+about: /about
+
+archive_date_format: MMM DD
+fancybox: true
+
+duoshuo_shortname: 
+#disqus_shortname: 
+
+github_url: https://github.com/you
+
+google_analytics:
+favicon: /favicon.ico
+
+widgets:
+  - category
+  - tagcloud
+  - blogroll
+
